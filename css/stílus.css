@@ -1,21 +1,25 @@
+body{
+  margin:0px;
+}
 header{
     width: 100%;
-    height: 140px;
+    height: 130px;
     background-color: black;
     color: #ffffff;
 }
 
 #logo{
     float: left;
-    padding-left: 250px;
+    padding-left: 225px;
 }
 #logoo{
-    width: 185px;
+    width: 187px;
+    margin: -10px;
 }
 
 #nev{
     float: right;
-    padding-right: 150px;
+    padding-right: 225px;
     font-size: 35px;
     text-align: center;
 }
@@ -23,13 +27,42 @@ header{
     margin-top: 30px;
 }
 
+#content{
+  width:1100px;
+  margin:auto;
+  padding:10px 20px;
+  background-color: rgba(255,0,0,0.9);
+}
+
+.first,.second{
+  width: 1000px;
+  margin: auto;
+  height: 330px;
+}
+
+.contentimg{
+  width:450px;
+}
+.contenttext{
+  width: 450px;
+}
+
+.firstpicture,.secondtext{
+  width: 500px;
+  float:left;
+}
+
+.firsttext,.secondpicture{
+  float: right;
+  width:500px;
+}
+
+
 footer{
     margin: 0;
     height: 40px;
-    width: 99%;
+    width: 100%;
     bottom: 0;
-    position: absolute;
-    position: 0;
     background-color: black;
     padding: 10px 0;
   }
