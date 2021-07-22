@@ -1,6 +1,8 @@
 body{
   margin:0px;
   font-family: 'Open Sans', sans-serif;
+  background-image:url(../image/denever.jpg);
+  background-position: -3% 10%;
 }
 header{
     width: 100%;
