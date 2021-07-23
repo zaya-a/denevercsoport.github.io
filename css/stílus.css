@@ -3,6 +3,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   background-image:url(../image/denever2.jpg);
   background-position: -3.5% 10%;
+  font-size: 27px;
 }
 header{
     width: 100%;
@@ -62,6 +63,27 @@ header{
 
 .secondpicture, .firstpicture{
   width: 450px;
+}
+
+.vége img{
+  width: 300px;
+}
+
+.familyfirst{
+  float: left;
+}
+.familysecond{
+  float: right;
+}
+.familytexts{
+  width: 380px;
+  float: left;
+  padding-left: 15px;
+}
+.vége{
+  height: 350px;
+  width:1000px;
+  margin:auto;
 }
 
 footer{
