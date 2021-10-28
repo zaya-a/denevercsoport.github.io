@@ -140,19 +140,76 @@ table{
 
 @media screen and (max-width: 1420px){
   #nev{
-    font-size: 25px;
+    padding-right: 100px;
   }
-  #nev p{
-    margin-top: 22px;
-}
+  #logo{
+    padding-left: 100px;
+  }
 }
 
 @media screen and (max-width: 1240px){
   #nev{
-    font-size: 20px;
+    padding-right: 50px;
+  }
+  #logo{
+    padding-left: 50px;
+  }
+  #content{
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1100px){
+  #nev{
+    font-size: 25px;
+  }
+  #content{
+    width: 950px;
+  }
+  .first{
+    width: 800px;
+  }
+  .second{
+    width: 800px;
+  }
+  .firstpicture,.secondtext{
+    width: 400px;
+    float:left;
+  }
+  
+  .firsttext,.secondpicture{
+    float: right;
+    width:400px;
+  }
+  .contentimg{
+    width:400px;
+  }
+  .contenttext{
+    width: 340px;
+    text-align: center;
+  }
+  body{
+    font-size: 22px;
+  }
+  .secondtext{
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #nev{
+    font-size: 24px;
+    width: 350px;
   }
   #nev p{
-    margin-top: 30px;
+      margin-top: 8px;
+  }
 }
+
+@media screen and (max-width:700px) {
+  #nev{
+    font-size: 20px;
+    padding-right: 20px;
+    width: 250px;
+  }
+  
 }
   
