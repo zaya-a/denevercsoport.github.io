@@ -49,6 +49,11 @@ header{
 }
 .contenttext{
   width: 450px;
+  text-align: center;
+}
+
+.firstp{
+  padding-left: 47px;
 }
 
 .firstpicture,.secondtext{
@@ -95,15 +100,15 @@ footer{
     padding: 10px 0;
   }
   
-  footer p{
+footer p{
     color: #ffffff;
   }
   
-  footer .copyright, .copyrightt{
+footer .copyright, .copyrightt{
     float: left;
   }
   
-  footer .copyright p, .copyrightt p{
+footer .copyright p, .copyrightt p{
     text-align: center;
     font-size: 13px;
     line-height: 14px;
@@ -111,11 +116,11 @@ footer{
     margin-left: 200px;
   }
   
-  footer .keszitette{
+footer .keszitette{
     float: right;
   }
   
-  footer .keszitette p{
+footer .keszitette p{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
@@ -124,12 +129,30 @@ footer{
     margin-top: 10px;
     margin-right: 200px;
   }
-  .familyp{
+.familyp{
     font-size: 18px;
     padding: 7px;
     font-weight: 600;
   }
-  table{
+table{
     margin-top: 40px;
   }
+
+@media screen and (max-width: 1420px){
+  #nev{
+    font-size: 25px;
+  }
+  #nev p{
+    margin-top: 22px;
+}
+}
+
+@media screen and (max-width: 1240px){
+  #nev{
+    font-size: 20px;
+  }
+  #nev p{
+    margin-top: 30px;
+}
+}
   
