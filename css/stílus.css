@@ -87,7 +87,7 @@ header{
 }
 .vége{
   height: 350px;
-  width:1000px;
+  width:600px;
   margin:auto;
 }
 
@@ -163,35 +163,42 @@ table{
     font-size: 25px;
   }
   #content{
-    width: 950px;
-  }
-  .first{
-    width: 800px;
-  }
-  .second{
-    width: 800px;
+    width: 650px;
   }
   .firstpicture,.secondtext{
-    width: 400px;
-    float:left;
+    float:none;
+    align-items: center;
+    margin: auto;
+    display: block;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  p{
+    display: block;
+  }
+  img{
+    display: block;
+  }
+  .firsttext,.secondpicture{
+    float:none;
+    align-items: center;
+    margin: auto;
+    display: block;
   }
   
-  .firsttext,.secondpicture{
-    float: right;
-    width:400px;
-  }
-  .contentimg{
-    width:400px;
+  .first,.second{
+    width: 600px;
+    margin: auto;
+    height: 600px;
+    display: block;
   }
   .contenttext{
-    width: 340px;
-    text-align: center;
-  }
-  body{
-    font-size: 22px;
-  }
-  .secondtext{
-    padding-right: 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -209,6 +216,12 @@ table{
     font-size: 20px;
     padding-right: 20px;
     width: 250px;
+  }
+  #content{
+    width: 520px;
+  }
+  .first,.second{
+    width: 500px;
   }
   
 }
