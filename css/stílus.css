@@ -74,6 +74,10 @@ header{
   width: 300px;
 }
 
+#utolso{
+  height: 330px;
+}
+
 .familyfirst{
   float: left;
 }
@@ -88,7 +92,6 @@ header{
 .vége{
   height: 350px;
   width:1000px;
-  margin:auto;
 }
 .familydiv{
   display: inline;
@@ -220,15 +223,16 @@ table{
   }
   .vége{
     height: 600px;
-    width: 1350px;
+    width: 700px;
     margin-bottom: 30px;
   }
   .familytexts{
     margin-left: 100px;
+
   }
-}
-#utolso{
-  height: 550px;
+  #utolso{
+    height: 550px;
+  }
 }
 @media screen and (max-width: 900px) {
   #nev{
